@@ -1,10 +1,6 @@
 // app/api/chat
 import { maskingParser } from "@/utils/maskingParser";
 
-import {
-  MaskingParser,
-  RegexMaskingTransformer,
-} from "langchain/experimental/masking";
 import { ChatOpenAI } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { BytesOutputParser } from "@langchain/core/output_parsers";
